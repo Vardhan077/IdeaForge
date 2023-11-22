@@ -1,0 +1,105 @@
+/* Update your CSS file with these styles */
+
+.comment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style-type: none;
+  border-bottom: 1px solid #2e6930; /* Add a border between items */
+}
+
+.comment-container {
+  display: flex;
+  align-items: center;
+}
+
+.comment-container .initial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2e6930;
+  margin-right: 10px;
+}
+
+.comment-container .initial {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.comment-container .comment-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-container .comment {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.comment-container .username-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.comment-container .username {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.comment-container .time {
+  font-size: 12px;
+  color: #c7c7c7;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-container .like-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.buttons-container .like-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.buttons-container .button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons-container .active {
+  background-color: #245c26;
+}
+
+.buttons-container .delete {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.comment-line {
+  border: none;
+  height: 1px;
+  background-color: #2e6930;
+}
+
+.comment-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}

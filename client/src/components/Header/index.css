@@ -1,0 +1,55 @@
+/* index.css */
+
+.dracula-theme {
+  background-color: #2e6930; /* Set the background color for the header */
+  padding: 10px;
+  /* From https://css.glass */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,114,13,1) 0%, rgba(39,188,44,1) 63%, rgba(66,230,71,1) 79%, rgba(56,234,62,1) 84%, rgba(56,234,62,1) 88%, rgba(56,234,62,1) 88%, rgba(111,224,116,1) 96%, rgba(112,228,116,1) 100%);
+margin-top:50%;
+}
+.b{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+.p{
+  padding-left: 30px;
+  color: white;
+}
+.button {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	/* background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%); */
+	background-color:#2d7b09;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+  width: 80px;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#43ad09;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.dracula-theme a {
+  color: #fff; /* Set the link color */
+  text-decoration: none; /* Remove the underline from the link */
+}
+
+.dracula-theme a:hover {
+  text-decoration: underline; /* Add underline on hover for the link */
+}
+
+/* Add more styles as needed */

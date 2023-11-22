@@ -1,0 +1,33 @@
+/* index.css */
+
+.body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 70px;
+    
+  }
+  .head{
+    margin: 20px;
+  }
+  .heading {
+    font-size: 50px;
+    margin-bottom: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Add more styles as needed */
+  .list{
+    /* margin-top: 10%; */
+    height: 80%;
+    width: auto;
+    /* margin-top: 16px; */
+    /* overflow-x: scroll; */
+  }
